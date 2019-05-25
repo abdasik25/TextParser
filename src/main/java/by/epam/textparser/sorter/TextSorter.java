@@ -25,7 +25,7 @@ public class TextSorter implements Sorter {
     }
 
     @Override
-    public List<Component> sort(Component textComponent) throws IllegalArgumentException{
+    public List<Component> sort(Component textComponent) throws IllegalArgumentException {
         if (whereTextPart == null || whatTextPart == null || comparator == null) {
             throw new IllegalArgumentException("Parameters should not be null");
         }

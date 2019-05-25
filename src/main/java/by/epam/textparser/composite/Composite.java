@@ -11,40 +11,40 @@ import java.util.stream.Collectors;
 
 public class Composite implements Component {
 
-    private TextPart type;
-    private List<Component> parts = new ArrayList<>();
+    private TextPart textPart;
+    private List<Component> textComponents = new ArrayList<>();
 
-    public Composite(TextPart type, List<Component> parts) {
-        this.type = type;
-        this.parts = parts;
+    public Composite(TextPart textPart, List<Component> textComponents) {
+        this.textPart = textPart;
+        this.textComponents = textComponents;
     }
 
-    public Composite(TextPart type) {
-        this.type = type;
+    public Composite(TextPart textPart) {
+        this.textPart = textPart;
     }
 
-    public Composite(List<Component> parts) {
-        this.parts = parts;
+    public Composite(List<Component> textComponents) {
+        this.textComponents = textComponents;
     }
 
     public TextPart getType() {
-        return type;
+        return textPart;
     }
 
-    public void setType(TextPart type) {
-        this.type = type;
+    public void setType(TextPart textPart) {
+        this.textPart = textPart;
     }
 
     public List<Component> getParts() {
-        return parts;
+        return textComponents;
     }
 
-    public void setParts(List<Component> parts) {
-        this.parts = parts;
+    public void setParts(List<Component> textComponents) {
+        this.textComponents = textComponents;
     }
 
     public int size() {
-        return parts.size();
+        return textComponents.size();
     }
 
     public enum TextPart {
@@ -57,15 +57,15 @@ public class Composite implements Component {
 
     @Override
     public void add(Component textComponent) {
-        parts.add(textComponent);
+        textComponents.add(textComponent);
     }
 
     @Override
     public String buildText() {
         StringBuilder builder = new StringBuilder();
-        for (Component component : parts) {
+        for (Component component : textComponents) {
             builder.append(component.buildText());
-            switch (type) {
+            switch (textPart) {
                 case SYMBOL:
                 case WORD:
                 case SENTENCE:
@@ -83,17 +83,19 @@ public class Composite implements Component {
 
     @Override
     public List<Component> getLeaf() {
-        return parts.stream().flatMap(tc -> ((Composite) tc).parts.stream()).collect(Collectors.toList());
+        return textComponents.stream().
+                flatMap(c -> ((Composite) c).textComponents.stream())
+                .collect(Collectors.toList());
     }
 
     @Override
     public List<Component> getTypeComponents(TextPart anotherType) {
         TextPart[] types = TextPart.values();
         List<Component> result;
-        result = anotherType == type ? parts
-                : new Composite(types[type.ordinal() - 1], getLeaf()).getTypeComponents(anotherType);
+        result = anotherType == textPart ? textComponents
+                : new Composite(types[textPart.ordinal() - 1], getLeaf()).getTypeComponents(anotherType);
         if (anotherType == TextPart.WORD) {
-            result.removeIf(w -> ((Composite) w).getType() == TextPart.SYMBOL && ((Symbol) ((Composite) w).parts.get(0))
+            result.removeIf(w -> ((Composite) w).getType() == TextPart.SYMBOL && ((Symbol) ((Composite) w).textComponents.get(0))
                     .getType() == Symbol.SymbolType.PUNCTUATION);
         }
         return result;

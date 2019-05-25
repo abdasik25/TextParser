@@ -14,7 +14,6 @@ public class Symbol implements Component {
 
     @Override
     public void add(Component textComponent) {
-
     }
 
     @Override

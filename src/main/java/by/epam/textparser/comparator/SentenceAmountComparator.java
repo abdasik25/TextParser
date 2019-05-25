@@ -14,7 +14,7 @@ public class SentenceAmountComparator implements Comparator<Component> {
     @Override
     public int compare(Component o1, Component o2) {
         return Comparator
-                .comparingInt(tc -> ((Composite) tc).getTypeComponents(Composite.TextPart.SENTENCE).size())
+                .comparingInt(o -> ((Composite) o).getTypeComponents(Composite.TextPart.SENTENCE).size())
                 .compare(o1, o2);
     }
 }

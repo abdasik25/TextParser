@@ -18,9 +18,6 @@ public class FileWriter {
             throw new FileNotFoundException();
         }
         try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get(filePath))) {
-            if (dataText == null || dataText.isEmpty()) {
-                dataText = "";
-            }
             bufferedWriter.write(dataText);
             return true;
         } catch (IOException e) {

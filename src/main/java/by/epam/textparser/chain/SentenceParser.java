@@ -14,7 +14,7 @@ import java.util.Arrays;
 public enum  SentenceParser implements Parser {
 
     INSTANCE;
-    private static final String SENTENCE_REGEX_PATTERN = "(?<=[.?!;\\u2026])";
+    private static final String SENTENCE_REGEX_PATTERN = "(?<=[.?!;\\u2026])"; // \u2026 is "..." in unicode
     private final Logger logger = LogManager.getLogger();
 
     public Composite parseText(String textLine) {
