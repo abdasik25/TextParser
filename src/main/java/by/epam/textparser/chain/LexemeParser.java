@@ -21,8 +21,8 @@ public enum LexemeParser implements Parser {
         Composite composite = new Composite(Composite.TextPart.LEXEME);
         Arrays.stream(textLine.split(LEXEME_REGEX_PATTERN))
                 .filter(s -> !s.isEmpty())
-                .peek(s -> LOGGER.debug("'" + s + "'" + " was added to " + composite.getType()))
                 .map(WordParser.INSTANCE::parseText)
+                .peek(s -> LOGGER.debug("'" + s + "'" + " was added to " + composite.getType()))
                 .forEach(composite::add);
         return composite;
     }

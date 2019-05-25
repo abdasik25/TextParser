@@ -14,31 +14,30 @@ import java.util.stream.Collectors;
 
 public class TextSorter implements Sorter {
 
-    private Composite.TextPart mainPart;
-    private Composite.TextPart includedPart;
+    private Composite.TextPart whereTextPart;
+    private Composite.TextPart whatTextPart;
     private Comparator<Component> comparator;
 
-    public TextSorter(Composite.TextPart mainPart, Composite.TextPart includedPart, Comparator<Component> comparator) {
-        this.mainPart = mainPart;
-        this.includedPart = includedPart;
+    public TextSorter(Composite.TextPart whereTextPart, Composite.TextPart whatTextPart, Comparator<Component> comparator) {
+        this.whereTextPart = whereTextPart;
+        this.whatTextPart = whatTextPart;
         this.comparator = comparator;
     }
 
     @Override
     public List<Component> sort(Component textComponent) throws IllegalArgumentException{
-        if (mainPart == null || includedPart == null || comparator == null) {
+        if (whereTextPart == null || whatTextPart == null || comparator == null) {
             throw new IllegalArgumentException("Parameters should not be null");
         }
-
-        if (mainPart.ordinal() > includedPart.ordinal()) {
-            throw new IllegalArgumentException(includedPart + " should be deeper than " + mainPart);
+        if (whatTextPart.ordinal() > whereTextPart.ordinal()) {
+            throw new IllegalArgumentException(whatTextPart + " should be smaller than " + whereTextPart);
         }
-
-        return includedPart != mainPart ? textComponent.getTypeComponents(mainPart).stream()
-                        .flatMap(tc -> tc.getTypeComponents(includedPart).stream()
+        return whatTextPart != whereTextPart ?
+                textComponent.getTypeComponents(whereTextPart).stream()
+                        .flatMap(tc -> tc.getTypeComponents(whatTextPart).stream()
                                 .sorted(comparator))
-                        .collect(Collectors.toList())
-                                        : textComponent.getTypeComponents(mainPart).stream()
+                        .collect(Collectors.toList()) :
+                textComponent.getTypeComponents(whereTextPart).stream()
                         .sorted(comparator)
                         .collect(Collectors.toList());
     }

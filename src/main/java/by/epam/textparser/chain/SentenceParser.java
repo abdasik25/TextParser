@@ -14,14 +14,14 @@ import java.util.Arrays;
 public enum  SentenceParser implements Parser {
 
     INSTANCE;
-    private static final String SENTENCE_REGEX_PATTERN = "(?<=[^.?!;\\u2026])";
+    private static final String SENTENCE_REGEX_PATTERN = "(?<=[.?!;\\u2026])";
     private final Logger logger = LogManager.getLogger();
 
     public Composite parseText(String textLine) {
         Composite composite = new Composite(Composite.TextPart.SENTENCE);
         Arrays.stream(textLine.split(SENTENCE_REGEX_PATTERN))
-                .peek(s -> logger.debug(s + " was added to " + composite.getType()))
                 .map(LexemeParser.INSTANCE::parseText)
+                .peek(s -> logger.debug(s + " was added to " + composite.getType()))
                 .forEach(composite::add);
         return composite;
     }

@@ -20,8 +20,8 @@ public enum ParagraphParser implements Parser {
     public Composite parseText(String textLine) {
         Composite composite = new Composite(Composite.TextPart.PARAGRAPH);
         Arrays.stream(textLine.split(PARAGRAPH_REGEX_PATTERN))
-                .peek(s -> logger.debug(s + " was added to " + composite.getType()))
                 .map(SentenceParser.INSTANCE::parseText)
+                .peek(s -> logger.debug(s + " was added to " + composite.getType()))
                 .forEach(composite::add);
         return composite;
     }

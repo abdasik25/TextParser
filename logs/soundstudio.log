@@ -1,81 +1,163 @@
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - o was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'o' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - o was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : o was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - u was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'u' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - u was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : u was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - r was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'r' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - r was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : r was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.ParagraphParser:23 - One, two was added to PARAGRAPH
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - O was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'O' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - O was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - n was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'n' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - n was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - e was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'e' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - e was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - , was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - ',' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - , was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : , was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 -   was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - t was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 't' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - t was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : t was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - w was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'w' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - w was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : w was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - o was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'o' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - o was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : o was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.ParagraphParser:23 - One was added to PARAGRAPH
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - O was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'O' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - O was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - n was added to SENTENCE
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'n' was added to LEXEME
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.WordParser:23 - n was added to WORD
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
-2019-05-25 19:53:21 DEBUG by.epam.textparser.chain.SentenceParser:23 - e was added to SENTENCE
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'e' was added to LEXEME
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.WordParser:23 - e was added to WORD
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.ParagraphParser:23 - One was added to PARAGRAPH
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SentenceParser:23 - O was added to SENTENCE
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'O' was added to LEXEME
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.WordParser:23 - O was added to WORD
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SentenceParser:23 - n was added to SENTENCE
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'n' was added to LEXEME
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.WordParser:23 - n was added to WORD
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SentenceParser:23 - e was added to SENTENCE
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'e' was added to LEXEME
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.WordParser:23 - e was added to WORD
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.ParagraphParser:23 - One was added to PARAGRAPH
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SentenceParser:23 - O was added to SENTENCE
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'O' was added to LEXEME
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.WordParser:23 - O was added to WORD
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SentenceParser:23 - n was added to SENTENCE
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'n' was added to LEXEME
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.WordParser:23 - n was added to WORD
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SentenceParser:23 - e was added to SENTENCE
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.LexemeParser:24 - 'e' was added to LEXEME
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.WordParser:23 - e was added to WORD
-2019-05-25 19:53:22 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@a4b2d8f' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@6d304f9d was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@f73dcd6 was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : S was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : a was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : s was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : h was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : a was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@40499e4f was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : . was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@51cd7ffc was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@30d4b288' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@4cc6fa2a was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@40f1be1b was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : A was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : l was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : x was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : a was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : d was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : r was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@7a791b66 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@6f2cb653' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@14c01636 was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@590c73d3 was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : A was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : l was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : x was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : a was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : d was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : r was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@75ed9710 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@4fc5e095' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@435871cb was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@609640d5 was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : A was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : l was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : x was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : a was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : d was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : r was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@79da1ec0 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@19fb8826' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@192d74fb was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@4bef0fe3 was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : I was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : t was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : h was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : a was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : s was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@556d0826 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : , was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@66ce957f was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : a was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : s was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : d was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@55b5f5d2 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : , was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@5bfa8cc5 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : a was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : s was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : d was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : B was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : y was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@666b83a4 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@3b220bcb was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : , was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@2b95e48b was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@4a3329b9' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : t was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : w was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : o was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@3dddefd8 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : , was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@160ac7fb was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@12bfd80d' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : t was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : h was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : r was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@41925502 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@13e3c1c7' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@5316e95f was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@3f053c80 was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@6c6c5427 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : , was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@618c5d94 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@5b40ceb' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : t was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : w was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : o was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@13c3c1e1 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : , was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@1d8062d2 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@1e63ec0b' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : t was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : h was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : r was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@3b956878 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : , was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@36546a22 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@285c08c8' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : f was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : o was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : u was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : r was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@295eaa7c was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@3918c187' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@2c88b9fc was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@64dafeed was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@2ece4966 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:34 - PUNCTUATION : , was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@1dd0e7c4 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@7894f09b' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : t was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : w was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : o was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@3d484181 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@6111ba37' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@7be58f16 was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@242aa8d9 was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@5b11a194 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@37bd68c3' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@60f7cc1d was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@11eadcba was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@45cff11c was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@207ea13' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@4bff1903 was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@62dae540 was added to PARAGRAPH
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : O was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : n was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SymbolParser:29 - ALPHABETIC : e was added to SYMBOL
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.WordParser:24 - by.epam.textparser.composite.Composite@5827af16 was added to WORD
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.LexemeParser:25 - 'by.epam.textparser.composite.Composite@654d8173' was added to LEXEME
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.SentenceParser:24 - by.epam.textparser.composite.Composite@56c9bbd8 was added to SENTENCE
+2019-05-25 20:30:38 DEBUG by.epam.textparser.chain.ParagraphParser:24 - by.epam.textparser.composite.Composite@630cb4a4 was added to PARAGRAPH

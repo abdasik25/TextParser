@@ -20,8 +20,8 @@ public enum WordParser implements Parser {
     public Composite parseText(String textLine) {
         Composite composite = new Composite(Composite.TextPart.WORD);
         Arrays.stream(textLine.split(PUNCTUAL_REGEX_PATTERN))
-                .peek(l -> logger.debug(l + " was added to " + composite.getType()))
                 .map(SymbolParser.INSTANCE::parseText)
+                .peek(l -> logger.debug(l + " was added to " + composite.getType()))
                 .forEach(composite::add);
         return composite;
     }

@@ -15,7 +15,7 @@ public class WordParserTest {
 
     @Test
     public void testParse() {
-        String text = "It has, asd, asd Bye.";
+        String text = "It has, asd, asd Bye";
         int actualWords = parser.parseText(text).size();
         int expectedWords = 5;
         Assert.assertEquals(actualWords, expectedWords);
