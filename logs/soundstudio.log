@@ -1,0 +1,316 @@
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - , *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:32 - PUNCTUATION : , *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'content' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - content *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : c *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : o *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : n *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : n *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'here',' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - here *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : h *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : r *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - ' *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:32 - PUNCTUATION : ' *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - , *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:32 - PUNCTUATION : , *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'making' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - making *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : m *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : k *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : i *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : n *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : g *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'it' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - it *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : i *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'look' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - look *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : l *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : o *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : o *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : k *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'like' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - like *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : l *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : i *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : k *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'readable' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - readable *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : r *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : d *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : b *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : l *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'English.' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - English *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : E *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : n *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : g *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : l *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : i *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : s *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : h *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - . *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:32 - PUNCTUATION : . *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.ParagraphParser:21 - It is a established fact that a reader will be of a page when looking at its layout. *** added to PARAGRAPH
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SentenceParser:21 - It is a established fact that a reader will be of a page when looking at its layout. *** added to SENTENCE
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'It' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - It *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : I *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'is' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - is *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : i *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : s *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'a' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - a *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'established' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - established *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : s *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : b *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : l *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : i *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : s *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : h *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : d *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'fact' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - fact *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : f *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : c *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'that' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - that *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : h *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'a' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - a *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'reader' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - reader *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : r *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : d *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : r *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'will' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - will *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : w *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : i *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : l *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : l *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'be' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - be *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : b *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'of' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - of *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : o *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : f *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'a' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - a *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'page' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - page *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : p *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : g *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'when' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - when *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : w *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : h *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : n *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'looking' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - looking *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : l *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : o *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : o *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : k *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : i *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : n *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : g *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'at' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - at *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'its' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - its *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : i *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : s *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'layout.' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - layout *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : l *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : a *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : y *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : o *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : u *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : t *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - . *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:32 - PUNCTUATION : . *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.ParagraphParser:21 - Bye. *** added to PARAGRAPH
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SentenceParser:21 - Bye. *** added to SENTENCE
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.LexemeParser:23 - 'Bye.' *** added to LEXEME
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - Bye *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : B *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : y *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:27 - ALPHABETIC : e *** added to SYMBOL
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.WordParser:22 - . *** added to WORD
+2019-05-25 18:37:00 DEBUG by.epam.textparser.chain.SymbolParser:32 - PUNCTUATION : . *** added to SYMBOL
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:34 - Sorting paragraphs by amount of sentences: 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:38 - It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:38 - It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:38 - It is a established fact that a reader will be of a page when looking at its layout. 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:38 - Bye. 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:40 - Sorting words by length: 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - It
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - has
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - not
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - but
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - the
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - only
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - five
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - also
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - leap
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - into
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - survived
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - centuries
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - remaining
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - unchanged
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - electronic
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - typesetting
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - essentially
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - It
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - in
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - of
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - of
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - was
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - the
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - the
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - and
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - with
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - more
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - with
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - like
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - Lorem
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - Ipsum
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - Aldus
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - Lorem
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - Ipsum
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - sheets
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - release
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - desktop
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - Letraset
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - passages
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - recently
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - software
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - versions
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - PageMaker
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - including
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - containing
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - publishing
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - popularised
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - a
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - a
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - a
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - It
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - is
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - be
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - by
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - of
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - at
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - the
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - its
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - long
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - fact
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - that
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - will
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - page
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - when
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - reader
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - layout
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - content
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - looking
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - readable
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - distracted
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - established
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - a
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - of
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - is
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - it
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - or
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - of
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - as
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - to
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - it
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - The
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - has
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - that
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - more
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - less
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - here
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - here
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - look
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - like
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - point
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - using
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - Ipsum
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - using
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - normal
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - making
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - letters
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - opposed
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - Content
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - content
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - English
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - readable
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - distribution
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - a
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - a
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - a
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - It
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - is
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - be
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - of
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - at
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - its
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - fact
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - that
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - will
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - page
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - when
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - reader
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - layout
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - looking
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - established
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:44 - Bye
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:46 - Sorting sentences by amount of words: 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:50 - It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:50 - It was popularised in the with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:50 - It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:50 - The point of using Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:50 - It is a established fact that a reader will be of a page when looking at its layout. 
+2019-05-25 18:37:00 INFO  by.epam.textparser.sorter.TextPartSorterTest:50 - Bye. 
