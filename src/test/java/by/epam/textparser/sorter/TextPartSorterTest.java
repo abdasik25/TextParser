@@ -24,6 +24,7 @@ public class TextPartSorterTest {
     private static final String  WRITE_PATH = "data/output_data";
 
 
+
     @Test
     public void testSort() throws FileNotFoundException {
         FileReader reader = new FileReader();
