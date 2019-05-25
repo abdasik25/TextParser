@@ -1,9 +1,12 @@
+/**
+ * Created by Alexander Lomat on 25.05.19
+ * Version 0.0.1
+ */
+
 package by.epam.textparser.chain;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
 
 public class SymbolParserTest {
 

@@ -1,3 +1,8 @@
+/**
+ * Created by Alexander Lomat on 25.05.19
+ * Version 0.0.1
+ */
+
 package by.epam.textparser.comparator;
 
 import by.epam.textparser.composite.Component;
@@ -9,7 +14,7 @@ public class WordsAmountComparator implements Comparator<Component> {
     @Override
     public int compare(Component o1, Component o2) {
         return Comparator
-                .comparingInt(o -> ((Composite)o).getTypeComponents(Composite.TextPart.WORD).size())
+                .comparingInt(o -> ((Composite) o).getTypeComponents(Composite.TextPart.WORD).size())
                 .compare(o1, o2);
     }
 }

@@ -1,3 +1,8 @@
+/**
+ * Created by Alexander Lomat on 21.05.19
+ * Version 0.0.1
+ */
+
 package by.epam.textparser.chain;
 
 import by.epam.textparser.composite.Composite;
@@ -12,14 +17,12 @@ public enum WordParser implements Parser {
 
     private final Logger logger = LogManager.getLogger();
 
-    private static final String PUNCT_SPLIT_PATTERN = "(?<=\\p{Punct})|(?=\\p{Punct})(?!=$)";
-    //"(?<=\\p{Punct})|(\\p{Punct})(?!=$)"; //notWorking
-    //(?<=\p{Punct})|(\p{Punct})
+    private static final String PUNCTUAL_REGEX_PATTERN = "(?<=\\p{Punct})|(?=\\p{Punct})(?!=$)";
 
     public Composite parseText(String textLine) {
         Composite composite = new Composite(Composite.TextPart.WORD);
-        Arrays.stream(textLine.split(PUNCT_SPLIT_PATTERN))
-                .peek(l -> logger.debug(l + " *** added to " + composite.getType()))
+        Arrays.stream(textLine.split(PUNCTUAL_REGEX_PATTERN))
+                .peek(l -> logger.debug(l + " added to " + composite.getType()))
                 .map(SymbolParser.INSTANCE::parseText)
                 .forEach(composite::add);
         return composite;

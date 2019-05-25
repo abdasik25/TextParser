@@ -1,3 +1,7 @@
+/**
+ * Created by Alexander Lomat on 21.05.19
+ * Version 0.0.1
+ */
 package by.epam.textparser.chain;
 
 import by.epam.textparser.composite.Composite;
@@ -20,7 +24,7 @@ public enum LexemeParser implements Parser {
 
         Arrays.stream(textLine.split(LEXEME_SPLIT_PATTERN))
                 .filter(s -> !s.isEmpty())
-                .peek(s -> LOGGER.debug("'" + s + "'" + " *** added to " + composite.getType()))
+                .peek(s -> LOGGER.debug("'" + s + "'" + " added to " + composite.getType()))
                 .map(WordParser.INSTANCE::parseText)
                 .forEach(composite::add);
         return composite;

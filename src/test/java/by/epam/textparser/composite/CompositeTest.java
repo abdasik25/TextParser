@@ -1,3 +1,8 @@
+/**
+ * Created by Alexander Lomat on 25.05.19
+ * Version 0.0.1
+ */
+
 package by.epam.textparser.composite;
 
 import by.epam.textparser.chain.WordParser;
@@ -91,7 +96,7 @@ public class CompositeTest {
 
     @Test(dataProvider = "data")
     public void testGetText(Component component, String expected) {
-        String actual = component.getText();
+        String actual = component.buildText();
         assertEquals(actual, expected);
 
     }

@@ -1,6 +1,10 @@
+/**
+ * Created by Alexander Lomat on 22.05.19
+ * Version 0.0.1
+ */
+
 package by.epam.textparser.composite;
 
-import javax.xml.soap.Text;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -58,10 +62,10 @@ public class Composite implements Component {
     }
 
     @Override
-    public String getText() {
+    public String buildText() {
         StringBuilder builder = new StringBuilder();
         for (Component component : parts) {
-            builder.append(component.getText());
+            builder.append(component.buildText());
             switch (type) {
                 case PARAGRAPH:
                     builder.append("\n");
@@ -80,7 +84,7 @@ public class Composite implements Component {
 
     @Override
     public List<Component> getLeaf() {
-        return parts.stream().flatMap(tc -> ((Composite)tc).parts.stream()).collect(Collectors.toList());
+        return parts.stream().flatMap(tc -> ((Composite) tc).parts.stream()).collect(Collectors.toList());
     }
 
     @Override
@@ -90,37 +94,10 @@ public class Composite implements Component {
         result = anotherType == type ? parts
                 : new Composite(types[type.ordinal() - 1], getLeaf()).getTypeComponents(anotherType);
         if (anotherType == TextPart.WORD) {
-            result.removeIf(w -> ((Composite)w).getType() == TextPart.SYMBOL && ((Symbol)((Composite) w).parts.get(0))
+            result.removeIf(w -> ((Composite) w).getType() == TextPart.SYMBOL && ((Symbol) ((Composite) w).parts.get(0))
                     .getType() == Symbol.SymbolType.PUNCTUATION);
         }
         return result;
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Composite composite = (Composite) o;
-
-        if (type != composite.type) return false;
-        return parts != null ? parts.equals(composite.parts) : composite.parts == null;
-
-    }
-
-    @Override
-    public int hashCode() {
-        int result = type != null ? type.hashCode() : 0;
-        result = 31 * result + (parts != null ? parts.hashCode() : 0);
-        return result;
-    }
-
-    @Override
-    public String toString() {
-        return type +
-                "[" + parts +
-                ']';
-    }
-
 
 }

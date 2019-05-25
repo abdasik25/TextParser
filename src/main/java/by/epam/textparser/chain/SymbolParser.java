@@ -1,3 +1,8 @@
+/**
+ * Created by Alexander Lomat on 21.05.19
+ * Version 0.0.1
+ */
+
 package by.epam.textparser.chain;
 
 import by.epam.textparser.composite.Composite;
@@ -24,12 +29,12 @@ public enum  SymbolParser implements Parser {
         while (matcher.find()) {
             if (matcher.group(1) != null) {
                 Symbol symbol = new Symbol(Symbol.SymbolType.ALPHABETIC, matcher.group(1).charAt(0));
-                logger.debug(symbol.getType() + " : " + symbol.getCharacter() + " *** added to " + composite.getType());
+                logger.debug(symbol.getType() + " : " + symbol.getCharacter() + " added to " + composite.getType());
                 composite.add(symbol);
             }
             if (matcher.group(2) != null) {
                 Symbol symbol = new Symbol(Symbol.SymbolType.PUNCTUATION, matcher.group(2).charAt(0));
-                logger.debug(symbol.getType() + " : " + symbol.getCharacter() + " *** added to " + composite.getType());
+                logger.debug(symbol.getType() + " : " + symbol.getCharacter() + " added to " + composite.getType());
                 composite.add(symbol);
             }
         }

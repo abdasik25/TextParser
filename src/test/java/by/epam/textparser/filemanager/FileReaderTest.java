@@ -1,3 +1,8 @@
+/**
+ * Created by Alexander Lomat on 25.05.19
+ * Version 0.0.1
+ */
+
 package by.epam.textparser.filemanager;
 
 import org.testng.annotations.Test;

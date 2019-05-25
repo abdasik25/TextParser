@@ -1,3 +1,8 @@
+/**
+ * Created by Alexander Lomat on 22.05.19
+ * Version 0.0.1
+ */
+
 package by.epam.textparser.composite;
 
 import java.util.List;
@@ -13,7 +18,7 @@ public class Symbol implements Component {
     }
 
     @Override
-    public String getText() {
+    public String buildText() {
         return Character.toString(character);
     }
 

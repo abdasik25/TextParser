@@ -1,6 +1,10 @@
+/**
+ * Created by Alexander Lomat on 25.05.19
+ * Version 0.0.1
+ */
+
 package by.epam.textparser.filemanager;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.IOException;
