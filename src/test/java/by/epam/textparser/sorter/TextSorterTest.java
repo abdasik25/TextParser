@@ -19,7 +19,7 @@ import org.apache.logging.log4j.Logger;
 import java.io.FileNotFoundException;
 
 
-public class TextPartSorterTest {
+public class TextSorterTest {
 
     private static final Logger LOGGER = LogManager.getLogger();
     private static final String FILE_PATH = "data/scource_text";
@@ -32,19 +32,19 @@ public class TextPartSorterTest {
         Composite composite = parser.parseText(inputText);
 
         LOGGER.info("Sorting paragraphs by amount of sentences: ");
-        Sorter paragraphSorter = new TextPartSorter(Composite.TextPart.PARAGRAPH, Composite.TextPart.PARAGRAPH,
+        Sorter paragraphSorter = new TextSorter(Composite.TextPart.PARAGRAPH, Composite.TextPart.PARAGRAPH,
                 new SentenceAmountComparator());
         paragraphSorter.sort(composite)
                 .forEach(textComponent -> LOGGER.info(textComponent.buildText()));
 
         LOGGER.info("Sorting words by length: ");
-        Sorter wordSorter = new TextPartSorter(Composite.TextPart.SENTENCE, Composite.TextPart.WORD,
+        Sorter wordSorter = new TextSorter(Composite.TextPart.SENTENCE, Composite.TextPart.WORD,
                 new WordLengthComparator());
         wordSorter.sort(composite)
                 .forEach(textComponent -> LOGGER.info(textComponent.buildText()));
 
         LOGGER.info("Sorting sentences by amount of words: ");
-        Sorter sentenceSorter = new TextPartSorter(Composite.TextPart.PARAGRAPH, Composite.TextPart.SENTENCE,
+        Sorter sentenceSorter = new TextSorter(Composite.TextPart.PARAGRAPH, Composite.TextPart.SENTENCE,
                 new WordsAmountComparator());
         sentenceSorter.sort(composite)
                 .forEach(textComponent -> LOGGER.info(textComponent.buildText()));

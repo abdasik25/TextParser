@@ -2,6 +2,7 @@
  * Created by Alexander Lomat on 21.05.19
  * Version 0.0.1
  */
+
 package by.epam.textparser.chain;
 
 import by.epam.textparser.composite.Composite;
@@ -13,18 +14,14 @@ import java.util.Arrays;
 public enum LexemeParser implements Parser {
 
     INSTANCE;
-
-    private static final String LEXEME_SPLIT_PATTERN = "\\s";
-
+    private static final String LEXEME_REGEX_PATTERN = "\\s";
     private final Logger LOGGER = LogManager.getLogger();
 
     public Composite parseText(String textLine) {
-
         Composite composite = new Composite(Composite.TextPart.LEXEME);
-
-        Arrays.stream(textLine.split(LEXEME_SPLIT_PATTERN))
+        Arrays.stream(textLine.split(LEXEME_REGEX_PATTERN))
                 .filter(s -> !s.isEmpty())
-                .peek(s -> LOGGER.debug("'" + s + "'" + " added to " + composite.getType()))
+                .peek(s -> LOGGER.debug("'" + s + "'" + " was added to " + composite.getType()))
                 .map(WordParser.INSTANCE::parseText)
                 .forEach(composite::add);
         return composite;

@@ -11,19 +11,16 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
 
-
-public enum  ParagraphParser implements Parser {
+public enum ParagraphParser implements Parser {
 
     INSTANCE;
-
-    private static final String PARAGRAPH_SPLIT_PATTERN = "\\n";
-
+    private static final String PARAGRAPH_REGEX_PATTERN = "\\n";
     private final Logger logger = LogManager.getLogger();
 
     public Composite parseText(String textLine) {
         Composite composite = new Composite(Composite.TextPart.PARAGRAPH);
-        Arrays.stream(textLine.split(PARAGRAPH_SPLIT_PATTERN))
-                .peek(s -> logger.debug(s + " added to " + composite.getType()))
+        Arrays.stream(textLine.split(PARAGRAPH_REGEX_PATTERN))
+                .peek(s -> logger.debug(s + " was added to " + composite.getType()))
                 .map(SentenceParser.INSTANCE::parseText)
                 .forEach(composite::add);
         return composite;

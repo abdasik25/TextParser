@@ -19,8 +19,8 @@ public class SentenceAmountComparatorTest {
     @DataProvider(name = "data")
     public Object[][] provideData() {
         return new Object[][] {
-                {"One, two, three.\n", "One, two. Three, four.\n", 1},
-                {"One. Two.", "One.", -1},
+                {"One, two, three.\n", "One, two. Three, four.\n", -1},
+                {"One. Two.", "One.", 1},
                 {"One.", "One.", 0}
         };
     }

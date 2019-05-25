@@ -14,7 +14,6 @@ public class Composite implements Component {
     private TextPart type;
     private List<Component> parts = new ArrayList<>();
 
-
     public Composite(TextPart type, List<Component> parts) {
         this.type = type;
         this.parts = parts;
@@ -67,15 +66,15 @@ public class Composite implements Component {
         for (Component component : parts) {
             builder.append(component.buildText());
             switch (type) {
-                case PARAGRAPH:
-                    builder.append("\n");
-                    break;
-                case SENTENCE:
-                case WORD:
                 case SYMBOL:
+                case WORD:
+                case SENTENCE:
                     break;
                 case LEXEME:
                     builder.append(" ");
+                    break;
+                case PARAGRAPH:
+                    builder.append("\n");
                     break;
             }
         }
